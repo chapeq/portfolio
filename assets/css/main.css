@@ -5,17 +5,87 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
-pre, a, abbr, acronym, address, big, cite,
-code, del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var, b,
-u, i, center, dl, dt, dd, ol, ul, li, fieldset,
-form, label, legend, table, caption, tbody,
-tfoot, thead, tr, th, td, article, aside,
-canvas, details, embed, figure, figcaption,
-footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -23,19 +93,32 @@ section, summary, time, mark, audio, video {
   font: inherit;
   vertical-align: baseline; }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block; }
 
 body {
   line-height: 1; }
 
-ol, ul {
+ol,
+ul {
   list-style: none; }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none; }
-  blockquote:before, blockquote:after, q:before, q:after {
+  blockquote:before, blockquote:after,
+  q:before,
+  q:after {
     content: '';
     content: none; }
 
@@ -54,7 +137,9 @@ input::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
-input, select, textarea {
+input,
+select,
+textarea {
   -moz-appearance: none;
   -webkit-appearance: none;
   -ms-appearance: none;
@@ -64,7 +149,9 @@ input, select, textarea {
 html {
   box-sizing: border-box; }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit; }
 
 body {
@@ -73,8 +160,10 @@ body {
   font-size: 19pt;
   font-weight: 300;
   line-height: 1.75em;
-  color: #888; }
-  body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+  color: #3d3d3d; }
+  body.is-preload *,
+  body.is-preload *:before,
+  body.is-preload *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;
     -ms-animation: none !important;
@@ -84,23 +173,40 @@ body {
     -ms-transition: none !important;
     transition: none !important; }
 
-input, textarea, select {
+input,
+textarea,
+select {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 19pt;
   font-weight: 300;
   line-height: 1.75em;
   color: #888; }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 300;
-  color: #666;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  color: #3d3d3d;
   line-height: 1.5em;
   text-align: center; }
 
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
   color: inherit;
   text-decoration: none; }
-  h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
+  h1 a strong,
+  h2 a strong,
+  h3 a strong,
+  h4 a strong,
+  h5 a strong,
+  h6 a strong {
     color: #333; }
 
 h2 {
@@ -122,11 +228,13 @@ header {
 footer {
   margin: 2em 0 0 0; }
 
-strong, b {
+strong,
+b {
   font-weight: 300;
-  color: #666; }
+  color: #333; }
 
-em, i {
+em,
+i {
   font-style: italic; }
 
 a {
@@ -139,7 +247,7 @@ a {
   transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
   outline: 0; }
   a:hover {
-    color: #E27689;
+    color: #e27689;
     border-bottom-color: rgba(255, 255, 255, 0); }
 
 sub {
@@ -161,7 +269,11 @@ blockquote {
   padding: 1em 0 1em 2em;
   font-style: italic; }
 
-p, ul, ol, dl, table {
+p,
+ul,
+ol,
+dl,
+table {
   margin-bottom: 2em; }
 
 br.clear {
@@ -968,12 +1080,69 @@ br.clear {
   .project .images {
     display: flex;
     flex-direction: row;
-    justify-content: space-between; }
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* The Modal (background) */
+    /* Modal Content (Image) */
+    /* Add Animation - Zoom in the Modal */
+    /* The Close Button */ }
     .project .images .image {
       margin-bottom: 10px;
-      margin-right: 5px; }
+      margin-right: 5px;
+      width: 45%; }
       .project .images .image:last-child {
         margin-right: 0; }
+    .project .images .image:hover {
+      opacity: 0.7;
+      cursor: pointer; }
+    .project .images .modal {
+      display: none;
+      /* Hidden by default */
+      position: fixed;
+      /* Stay in place */
+      z-index: 1;
+      /* Sit on top */
+      padding-top: 100px;
+      /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%;
+      /* Full width */
+      height: 100%;
+      /* Full height */
+      overflow: auto;
+      /* Enable scroll if needed */
+      background-color: black;
+      /* Fallback color */
+      background-color: rgba(0, 0, 0, 0.9);
+      /* Black w/ opacity */ }
+    .project .images .modal-content {
+      margin: auto;
+      display: block;
+      width: 70%;
+      max-width: 1500px; }
+    .project .images .modal-content {
+      animation-name: zoom;
+      animation-duration: 0.6s; }
+
+@keyframes zoom {
+  from {
+    transform: scale(0); }
+  to {
+    transform: scale(1); } }
+    .project .images .close {
+      position: absolute;
+      top: 15px;
+      right: 35px;
+      color: #f1f1f1;
+      font-size: 40px;
+      font-weight: bold;
+      transition: 0.3s; }
+    .project .images .close:hover,
+    .project .images .close:focus {
+      color: #bbb;
+      text-decoration: none;
+      cursor: pointer; }
   .project .video {
     position: relative;
     overflow: hidden;
@@ -991,13 +1160,17 @@ br.clear {
     height: 100%; }
 
 /* Sections/Article */
-section, article {
+section,
+article {
   margin-bottom: 3em; }
   section > :last-child,
-  section > .container, section:last-child, article > :last-child,
-  article > .container, article:last-child {
+  section > .container, section:last-child,
+  article > :last-child,
+  article > .container,
+  article:last-child {
     margin-bottom: 0; }
-  .row > section, .row > article {
+  .row > section, .row >
+  article {
     margin-bottom: 0; }
 
 /* Image */
@@ -1067,9 +1240,9 @@ form label {
   text-align: left;
   margin-bottom: 0.5em; }
 
-form input[type="text"],
-form input[type="email"],
-form input[type="password"],
+form input[type='text'],
+form input[type='email'],
+form input[type='password'],
 form select,
 form textarea {
   position: relative;
@@ -1088,17 +1261,17 @@ form textarea {
   -webkit-transition: all 0.35s ease-in-out;
   -ms-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out; }
-  form input[type="text"]:focus,
-  form input[type="email"]:focus,
-  form input[type="password"]:focus,
+  form input[type='text']:focus,
+  form input[type='email']:focus,
+  form input[type='password']:focus,
   form select:focus,
   form textarea:focus {
     box-shadow: 0 0 2px 1px #8ebebc;
     background: #fff; }
 
-form input[type="text"],
-form input[type="email"],
-form input[type="password"],
+form input[type='text'],
+form input[type='email'],
+form input[type='password'],
 form select {
   line-height: 1.25em; }
 
@@ -1124,7 +1297,7 @@ form ::-moz-focus-inner {
 table {
   width: 100%;
   text-align: left; }
-  table tbody tr:nth-child(2n+2) {
+  table tbody tr:nth-child(2n + 2) {
     background: #f4f4f4; }
   table td {
     padding: 0.5em 1em 0.5em 1em; }
@@ -1140,9 +1313,9 @@ table {
     background: #eee; }
 
 /* Button */
-input[type="button"],
-input[type="submit"],
-input[type="reset"],
+input[type='button'],
+input[type='submit'],
+input[type='reset'],
 button,
 .button {
   position: relative;
@@ -1162,15 +1335,15 @@ button,
   -webkit-transition: background-color 0.35s ease-in-out;
   -ms-transition: background-color 0.35s ease-in-out;
   transition: background-color 0.35s ease-in-out; }
-  input[type="button"]:hover,
-  input[type="submit"]:hover,
-  input[type="reset"]:hover,
+  input[type='button']:hover,
+  input[type='submit']:hover,
+  input[type='reset']:hover,
   button:hover,
   .button:hover {
     background-color: #9ececc; }
-  input[type="button"]:active,
-  input[type="submit"]:active,
-  input[type="reset"]:active,
+  input[type='button']:active,
+  input[type='submit']:active,
+  input[type='reset']:active,
   button:active,
   .button:active {
     background-color: #7eaeac; }
@@ -1280,7 +1453,7 @@ button,
     line-height: 1.25em;
     margin: 0.5em 0 0 0; }
   #logo .image {
-    position: absolute;
+    position: relative;
     left: 0;
     top: 0; }
 
@@ -1354,9 +1527,15 @@ button,
     #main > section.dark {
       color: #ddd;
       color: rgba(255, 255, 255, 0.75); }
-      #main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
+      #main > section.dark h2,
+      #main > section.dark h3,
+      #main > section.dark h4,
+      #main > section.dark h5,
+      #main > section.dark h6 {
         color: inherit;
-        text-align: center; }
+        text-align: center;
+        font-weight: 400;
+        color: #fff; }
       #main > section.dark strong {
         color: #fff;
         border-color: inherit; }
@@ -1370,9 +1549,11 @@ button,
       background-size: cover;
       background-position: center center; }
     #main > section.one {
-      background-color: #81918E;
+      background-color: #81918e;
       background-image: url("../../images/banner.jpg");
-      text-align: center; }
+      text-align: center;
+      font-weight: 400;
+      color: #fff; }
     #main > section.two {
       background-color: #f5fafa; }
     #main > section.three {
@@ -1386,7 +1567,10 @@ button,
 /* Wide */
 @media screen and (min-width: 961px) and (max-width: 1880px) {
   /* Basic */
-  body, input, textarea, select {
+  body,
+  input,
+  textarea,
+  select {
     font-size: 17pt; }
   /* Header */
   #header {
@@ -1409,7 +1593,10 @@ button,
 /* Narrow */
 @media screen and (min-width: 961px) and (max-width: 1320px) {
   /* Basic */
-  body, input, textarea, select {
+  body,
+  input,
+  textarea,
+  select {
     font-size: 16pt; }
   .container {
     padding: 0 2em 0 2em; }
@@ -1448,9 +1635,13 @@ button,
 
 @media screen and (max-width: 960px) {
   /* Basic */
-  html, body {
+  html,
+  body {
     overflow-x: hidden; }
-  body, input, textarea, select {
+  body,
+  input,
+  textarea,
+  select {
     font-size: 16pt; }
   header br {
     display: none; }
@@ -1590,7 +1781,10 @@ button,
 /* Mobile */
 @media screen and (max-width: 736px) {
   /* Basic */
-  body, input, textarea, select {
+  body,
+  input,
+  textarea,
+  select {
     font-size: 14pt; }
   h2 {
     font-size: 1.5em;
