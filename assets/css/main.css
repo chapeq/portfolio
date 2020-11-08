@@ -1087,9 +1087,10 @@ br.clear {
     /* Add Animation - Zoom in the Modal */
     /* The Close Button */ }
     .project .images .image {
-      margin-bottom: 10px;
+      margin-bottom: 20px;
       margin-right: 5px;
-      width: 45%; }
+      width: 45%;
+      box-shadow: 0 0 10px; }
       .project .images .image:last-child {
         margin-right: 0; }
     .project .images .image:hover {
@@ -1148,6 +1149,7 @@ br.clear {
     overflow: hidden;
     display: block;
     margin: auto;
+    margin-top: 15px;
     width: 70%;
     padding-top: 40%; }
   .project .video iframe {
@@ -1157,7 +1159,7 @@ br.clear {
     bottom: 0;
     right: 0;
     width: 100%;
-    height: 100%; }
+    height: 80%; }
 
 /* Sections/Article */
 section,
