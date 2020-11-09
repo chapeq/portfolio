@@ -230,7 +230,7 @@ footer {
 
 strong,
 b {
-  font-weight: 300;
+  font-weight: 400;
   color: #333; }
 
 em,
@@ -1195,7 +1195,7 @@ article {
   .image.featured {
     display: block;
     width: 100%;
-    margin: 0 0 2em 0; }
+    margin: 0 0 3em 0; }
   .image.left {
     float: left;
     margin: 0 2em 2em 0; }
@@ -1524,7 +1524,7 @@ button,
     overflow: hidden;
     padding: 4em 0;
     box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
-    text-align: left;
+    text-align: justify;
     background-image: url("images/overlay.png"); }
     #main > section.dark {
       color: #ddd;
@@ -1556,12 +1556,40 @@ button,
       text-align: center;
       font-weight: 400;
       color: #fff; }
+      #main > section.one strong {
+        font-weight: 700; }
     #main > section.two {
       background-color: #f5fafa; }
     #main > section.three {
       background-color: #ecf1f1; }
       #main > section.three p {
-        font-size: 18px; }
+        font-size: 18px;
+        margin-bottom: 25px; }
+      #main > section.three .btn-container {
+        text-align: center;
+        margin-top: 45px; }
+      #main > section.three .cvButton {
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        padding: 11px 25px;
+        border-radius: 5px;
+        background: #555f67;
+        background: linear-gradient(to bottom, #555f67, #31353a);
+        box-shadow: #66727c 1px 2px 3px 0px;
+        text-shadow: #111315 1px 1px 1px;
+        font: normal normal bold 20px arial;
+        color: #ffffff;
+        text-decoration: none; }
+      #main > section.three .cvButton:hover,
+      #main > section.three .cvButton:focus {
+        background: #8b9297;
+        background: linear-gradient(to bottom, #7e8285, #4a4b4d);
+        color: #ffffff;
+        text-decoration: none; }
+      #main > section.three .cvButton:active {
+        background: #1f2225;
+        background: linear-gradient(to bottom, #1f2225, #1f2225); }
     #main > section.four {
       background-color: #e8edec;
       text-align: center; }

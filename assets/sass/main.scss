@@ -294,7 +294,7 @@ footer {
 
 strong,
 b {
-  font-weight: 300;
+  font-weight: 400;
   color: #333;
 }
 
@@ -584,7 +584,7 @@ article {
   &.featured {
     display: block;
     width: 100%;
-    margin: 0 0 2em 0;
+    margin: 0 0 3em 0;
   }
 
   &.left {
@@ -991,7 +991,7 @@ button,
     padding: 4em 0;
     box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05),
       inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
-    text-align: left;
+    text-align: justify;
     background-image: url('images/overlay.png');
 
     &.dark {
@@ -1036,6 +1036,9 @@ button,
       text-align: center;
       font-weight: 400;
       color: #fff;
+      strong {
+        font-weight: 700;
+      }
     }
 
     &.two {
@@ -1046,6 +1049,36 @@ button,
       background-color: #ecf1f1;
       p {
         font-size: 18px;
+        margin-bottom: 25px;
+      }
+      .btn-container {
+        text-align: center;
+        margin-top: 45px;
+      }
+      .cvButton {
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        padding: 11px 25px;
+        border-radius: 5px;
+        background: #555f67;
+        background: linear-gradient(to bottom, #555f67, #31353a);
+        box-shadow: #66727c 1px 2px 3px 0px;
+        text-shadow: #111315 1px 1px 1px;
+        font: normal normal bold 20px arial;
+        color: #ffffff;
+        text-decoration: none;
+      }
+      .cvButton:hover,
+      .cvButton:focus {
+        background: #8b9297;
+        background: linear-gradient(to bottom, #7e8285, #4a4b4d);
+        color: #ffffff;
+        text-decoration: none;
+      }
+      .cvButton:active {
+        background: #1f2225;
+        background: linear-gradient(to bottom, #1f2225, #1f2225);
       }
     }
 
