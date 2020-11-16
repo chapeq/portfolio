@@ -75,16 +75,62 @@
       <div class="container">
 
         <header>
-          <h2>Mes Projets Unity</h2>
+          <h2>Mes Projets</h2>
         </header>
 
+        <div class="row project">
+          <div class="title">
+            <h3>Harry Potter 2D Mobile Game - En cours </h3>
+          </div>
+          <p>Projet personnel réalisé pour tester les fonctionnalités d'<strong>Unity</strong> en 2D et le développement
+            pour
+            mobile. Il s'agit
+            d'un jeu d'aventure / RPG sur le thème d'Harry Potter.
+            Le développement est encore en cours mais j'ai pour l'instant pu mettre en place un :
+          </p>
+          <ul>
+            <li>Système de dialogue</li>
+            <li>Système de quêtes</li>
+            <li>Système d'inventaire</li>
+          </ul>
+
+          <div class="col-12 col-12-mobile images">
+            <div id="MyImg" class="image">
+              <img src="images/CaptureDialog.jpg" alt="" onclick="onModalClick(this)" />
+            </div>
+
+            <div class="image">
+              <img src="images/CaptureInventaire.jpg" alt="" onclick="onModalClick(this)" />
+            </div>
+
+            <div class="image">
+              <img src="images/CaptureBaguette.jpg" alt="" onclick="onModalClick(this)" />
+            </div>
+
+            <div class="image">
+              <img src="images/CaptureLevel2.jpg" alt="" onclick="onModalClick(this)" />
+            </div>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+              <!-- The Close Button -->
+              <span class="close">&times;</span>
+              <!-- Modal Content (The Image) -->
+              <img class="modal-content" id="img01">
+            </div>
+          </div>
+
+
+
+        </div>
         <div class="row project">
           <div class="title">
             <h3>Zombie Killer</h3>
           </div>
           <p>Projet commencé lors de ma formation que j'ai décidé de finaliser/améliorer.
             Il s'agit d'un mini-jeu de type TPS (Third-person shooter) sur le thème d'Halloween.
-            Zombie Killer est mon premier projet Unity, il m'a permis de mettre en pratique les différentes
+            Zombie Killer est mon premier projet <strong>Unity</strong>, il m'a permis de mettre en pratique les
+            différentes
             fonctionnalités du logiciel :</p>
           <ul>
             <li>Import de modèles 3D</li>
@@ -121,11 +167,80 @@
             <iframe width="560" height="315" src="https://www.youtube.com/embed/_pVGR_nC_YQ" frameborder="0"
               allowfullscreen></iframe>
           </div>
-
         </div>
 
-      </div>
+
+
+        <div class="row project">
+          <div class="title">
+            <h3>Drive With Your Hand - Stage</h3>
+          </div>
+          <p> Stage réalisé lors de ma 2e année de Master, dans l'entreprise Aubay. J'ai pu participer à ce projet de
+            <strong>réalité augmentée</strong> dont
+            le but était de pouvoir contrôler une interface (page
+            web, bureau, etc.) avec les mains en utilisant comme moyen de détection une
+            webcam grand public. Mon travail a consisté notamment à optimiser l'API <strong>JavaScript</strong>
+            existante (optimisation
+            algortihmes et temps de traitement), à nettoyer le code et à tester, mais aussi à lancer une future API C++
+            (cahier des charges, architecture).</p>
+
+          <div class="col-12 col-12-mobile images">
+            <div id="MyImg" class="image">
+              <img src="images/DWYH.jpg" alt="" onclick="onModalClick(this)" />
+            </div>
+
+            <div class="video">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/Q7fW1qaxCZE" frameborder="0"
+                allowfullscreen></iframe>
+            </div>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+              <!-- The Close Button -->
+              <span class="close">&times;</span>
+              <!-- Modal Content (The Image) -->
+              <img class="modal-content" id="img01">
+            </div>
+          </div>
+
+
+
+          <div class="row project">
+            <div class="title">
+              <h3>Appisodes Plumzi - Stage</h3>
+            </div>
+            <p> Stage réalisé lors de ma 1ère année de Master, dans la start-up Plumzi. J'ai pu participer à la
+              réalisation d'Appisodes (épisodes interactifs entre le dessin animé et le jeu vidéo) à destination des
+              enfants. En tant que développeuse, ma mission a été d’implémenter des scénarios interactifs selon les
+              spécifications fournies par les équipes créatrices dans le gameplay. C'est-à-dire implémenter des
+              interactions et de l’environnement
+              graphique/audio dans les différentes scènes, en <strong>Lua</strong>.</p>
+
+            <div class="col-12 col-12-mobile images">
+              <div id="MyImg" class="image">
+                <img src="images/Appisode1.gif" alt="" onclick="onModalClick(this)" />
+              </div>
+
+              <div class="image">
+                <img src="images/Appisode2.gif" alt="" onclick="onModalClick(this)" />
+              </div>
+
+              <div class="image">
+                <img src="images/Appisode3.gif" alt="" onclick="onModalClick(this)" />
+              </div>
+
+              <!-- The Modal -->
+              <div id="myModal" class="modal">
+                <!-- The Close Button -->
+                <span class="close">&times;</span>
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content" id="img01">
+              </div>
+            </div>
+
+          </div>
     </section>
+
 
     <!-- About Me -->
     <section id="about" class="three">
@@ -152,7 +267,7 @@
         </p>
 
         <div class="btn-container">
-          <a class="cvButton" href="./images/CV.pdf" download="CV " title="Telecharger mon CV">Mon CV</a>
+          <a class="cvButton" href="./images/CV.pdf" download="CV ">Télécharger mon CV (pdf)</a>
         </div>
       </div>
     </section>

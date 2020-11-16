@@ -1060,7 +1060,8 @@ br.clear {
 /* Sections/Project */
 .project {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  padding-bottom: 25px; }
   .project p {
     font-size: 18px;
     margin-bottom: 3px;
@@ -1573,23 +1574,16 @@ button,
         text-align: center;
         vertical-align: middle;
         padding: 11px 25px;
-        border-radius: 5px;
-        background: #555f67;
-        background: linear-gradient(to bottom, #555f67, #31353a);
-        box-shadow: #66727c 1px 2px 3px 0px;
-        text-shadow: #111315 1px 1px 1px;
-        font: normal normal bold 20px arial;
+        border-radius: 7px;
         color: #ffffff;
-        text-decoration: none; }
+        text-decoration: none;
+        font-family: 'Source Sans Pro';
+        font-weight: bold;
+        background-color: #333;
+        font-size: 18px; }
       #main > section.three .cvButton:hover,
       #main > section.three .cvButton:focus {
-        background: #8b9297;
-        background: linear-gradient(to bottom, #7e8285, #4a4b4d);
-        color: #ffffff;
-        text-decoration: none; }
-      #main > section.three .cvButton:active {
-        background: #1f2225;
-        background: linear-gradient(to bottom, #1f2225, #1f2225); }
+        background: #505050; }
     #main > section.four {
       background-color: #e8edec;
       text-align: center; }
