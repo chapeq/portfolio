@@ -425,7 +425,7 @@ br.clear {
 
   ul {
     padding-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
   }
 
   .title {
@@ -1052,6 +1052,9 @@ button,
 
     &.two {
       background-color: #f5fafa;
+      .lien {
+        text-align: center;
+      }
     }
 
     &.three {

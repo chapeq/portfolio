@@ -80,6 +80,138 @@
 
         <div class="row project">
           <div class="title">
+            <h3>MindMaze project</h3>
+          </div>
+          <p>
+            Petit jeu réalisé dans le cadre du programme <strong>Womxn Develop at Ubisoft</strong>, un programme de
+            mentorat
+            en <strong>Game Design</strong> qui s'est déroulé du 10 février au 21 mai 2021.
+            Le sujet de cette édition était de développer et prototyper une démo de jeu sur le thème
+            <i>"I want to break free"</i>.
+          </p>
+          <p>Le pitch du jeu que j'ai choisi de créer est le suivant :</p>
+          <p>
+            <i>Les confinements successifs ont beaucoup pesé sur le moral d’Ezra…
+              Explorez le dédale de ses pensées et aidez le(la) à s’échapper de ce labyrinthe avant qu’il(elle) ne
+              sombre dans la folie !</i>
+          </p>
+
+          <div class="col-12 col-12-mobile images">
+            <div id="MyImg" class="image">
+              <img src="images/MindMaze1.jpg" alt="" onclick="onModalClick(this)" />
+            </div>
+
+            <div class="image">
+              <img src="images/MindMaze2.jpg" alt="" onclick="onModalClick(this)" />
+            </div>
+
+            <div class="image">
+              <img src="images/MindMaze3.jpg" alt="" onclick="onModalClick(this)" />
+            </div>
+
+            <div class="image">
+              <img src="images/MindMaze4.jpg" alt="" onclick="onModalClick(this)" />
+            </div>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+              <!-- The Close Button -->
+              <span class="close">&times;</span>
+              <!-- Modal Content (The Image) -->
+              <img class="modal-content" id="img01">
+            </div>
+          </div>
+
+          <p>
+            J'ai choisi de développer la démo de mon jeu grâce à <strong>Unity</strong>.
+            L'objectif du joueur sera ici de sortir du labyrinthe le plus rapidement possible,
+            tout en collectant des objets disséminés dans le labyrinthe et en
+            évitant un ennemi représentant les pensées noires d’Ezra.
+          </p>
+
+          <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2kaNEpX9v5I" frameborder="0"
+              allowfullscreen></iframe>
+          </div>
+
+          <div class="lien">
+            <a href="./images/MindMaze_GameDesignSolution_[Charlotte_Pequignot].pdf"
+              download="GameDesign_Solution">Presentation du jeu (pdf)</a>
+          </div>
+          <div class="lien">
+            <a href="https://github.com/chapeq/MindMazeProject">Code et crédits des assets disponible ici</a>
+          </div>
+
+        </div>
+
+
+        <div class="row project">
+          <div class="title">
+            <h3>Reborn project</h3>
+          </div>
+          <p>
+            Petit jeu réalisé dans le cadre du programme <strong>Womxn Develop at Ubisoft</strong>, un programme de
+            mentorat
+            en <strong>programmation</strong> qui s'est déroulé du 10 février au 21 mai 2021.
+            Le sujet de cette édition était de créer un jeu en utilisant notre imagination et notre
+            créativité, sur le thème <i>"Reborn"</i>.
+          </p>
+          <p>Environnement de développement:</p>
+          <ul>
+            <li><strong>C++</strong></li>
+            <li>SFML</li>
+            <li>Dear ImGui</li>
+            <li>Visual Studio</li>
+          </ul>
+
+          <p>
+            J'ai choisi de créer pour ce projet un petit jeu très simple où le joueur peut déplacer un petit cercle bleu
+            horizontalement pour ramasser des collectibles (triangle vert). Mais attention à éviter
+            les obstacles (carrés rouges).
+            Si le joueur touche un obstacle, c'est perdu, mais vous pouvez "renaître" et donc continuer le jeu tout en
+            gardant votre score ... Mais, le cercle s'agrandit! Rendant le jeu un peu plus difficile.
+            le joueur perd vraiment (Game Over) lorsque le cercle atteint une certaine taille.
+          </p>
+
+          <div class="col-12 col-12-mobile images">
+            <div id="MyImg" class="image">
+              <img src="images/Reborn1.jpg" alt="" onclick="onModalClick(this)" />
+            </div>
+
+            <div class="image">
+              <img src="images/Reborn2.jpg" alt="" onclick="onModalClick(this)" />
+            </div>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+              <!-- The Close Button -->
+              <span class="close">&times;</span>
+              <!-- Modal Content (The Image) -->
+              <img class="modal-content" id="img01">
+            </div>
+          </div>
+
+          <p>
+            Via une fenêtre ImGUI, il est possible de modifier divers paramètres du jeu (vitesse à laquelle les
+            obstacles et les
+            collectibles tombent,
+            vitesse à laquelle le cercle se déplace, taille du cercle, temps d'apparition des obstacles et collectibles,
+            nombre d'obstacles et de collectibles ...)
+          </p>
+          <p>
+            J'ai également commencer le développement d'une partie IA. Prenant le contrôle du cercle,
+            l'IA se dirige vers les collectibles pour les ramasser, tout en évitant les obstacles.
+            La partie évitement d'obstacle est encore à améliorer.
+          </p>
+          <div class="lien">
+            <a href="https://github.com/chapeq/RebornProject">Le code est disponible ici</a>
+          </div>
+        </div>
+
+
+
+        <div class="row project">
+          <div class="title">
             <h3>Harry Potter Mini Adventure</h3>
           </div>
           <p>Projet personnel réalisé pour tester les fonctionnalités d'<strong>Unity</strong> en 2D et le développement
@@ -202,7 +334,8 @@
             webcam grand public. Mon travail a consisté notamment à optimiser l'API <strong>JavaScript</strong>
             existante (optimisation
             algorithmes et temps de traitement), à nettoyer le code et à tester, mais aussi à lancer une future API C++
-            (cahier des charges, architecture).</p>
+            (cahier des charges, architecture).
+          </p>
 
           <div class="col-12 col-12-mobile images">
             <div id="MyImg" class="image">
