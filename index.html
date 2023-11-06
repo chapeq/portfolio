@@ -63,8 +63,10 @@
 
         <header>
           <h2>Bienvenue</h2>
-          <p>Charlotte, ingénieur informatique diplomée de l'EFREI, 3 ans d'expérience en développement.</br>
-            Je me forme actuellement sur <strong>Unity</strong>.</p>
+          <p>Charlotte, ingénieur informatique diplomée de l'EFREI, 5 ans d'expérience en développement dont 2 ans sur
+            du développement
+            <strong>Unity</strong> et des projets en <strong>Réalité Mixte</strong>.
+          </p>
         </header>
 
       </div>
@@ -80,185 +82,38 @@
 
         <div class="row project">
           <div class="title">
-            <h3>MindMaze project</h3>
+            <h3>TooYu</h3>
           </div>
           <p>
-            Petit jeu réalisé dans le cadre du programme <strong>Womxn Develop at Ubisoft</strong>, un programme de
-            mentorat
-            en <strong>Game Design</strong> qui s'est déroulé du 10 février au 21 mai 2021.
-            Le sujet de cette édition était de développer et prototyper une démo de jeu sur le thème
-            <i>"I want to break free"</i>.
-          </p>
-          <p>Le pitch du jeu que j'ai choisi de créer est le suivant :</p>
-          <p>
-            <i>Les confinements successifs ont beaucoup pesé sur le moral d’Ezra…
-              Explorez le dédale de ses pensées et aidez le(la) à s’échapper de ce labyrinthe avant qu’il(elle) ne
-              sombre dans la folie !</i>
-          </p>
-
-          <div class="col-12 col-12-mobile images">
-            <div id="MyImg" class="image">
-              <img src="images/MindMaze1.jpg" alt="" onclick="onModalClick(this)" />
-            </div>
-
-            <div class="image">
-              <img src="images/MindMaze2.jpg" alt="" onclick="onModalClick(this)" />
-            </div>
-
-            <div class="image">
-              <img src="images/MindMaze3.jpg" alt="" onclick="onModalClick(this)" />
-            </div>
-
-            <div class="image">
-              <img src="images/MindMaze4.jpg" alt="" onclick="onModalClick(this)" />
-            </div>
-
-            <!-- The Modal -->
-            <div id="myModal" class="modal">
-              <!-- The Close Button -->
-              <span class="close">&times;</span>
-              <!-- Modal Content (The Image) -->
-              <img class="modal-content" id="img01">
-            </div>
-          </div>
-
-          <p>
-            J'ai choisi de développer la démo de mon jeu grâce à <strong>Unity</strong>.
-            L'objectif du joueur sera ici de sortir du labyrinthe le plus rapidement possible,
-            tout en collectant des objets disséminés dans le labyrinthe et en
-            évitant un ennemi représentant les pensées noires d’Ezra.
-          </p>
-
-          <div class="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/2kaNEpX9v5I" frameborder="0"
-              allowfullscreen></iframe>
-          </div>
-
-          <div class="lien">
-            <a href="./images/MindMaze_GameDesignSolution_[Charlotte_Pequignot].pdf"
-              download="GameDesign_Solution">Presentation du jeu (pdf)</a>
-          </div>
-          <div class="lien">
-            <a href="https://github.com/chapeq/MindMazeProject">Code et crédits des assets disponible ici</a>
-          </div>
-
-        </div>
-
-
-        <div class="row project">
-          <div class="title">
-            <h3>Reborn project</h3>
-          </div>
-          <p>
-            Petit jeu réalisé dans le cadre du programme <strong>Womxn Develop at Ubisoft</strong>, un programme de
-            mentorat
-            en <strong>programmation</strong> qui s'est déroulé du 10 février au 21 mai 2021.
-            Le sujet de cette édition était de créer un jeu en utilisant notre imagination et notre
-            créativité, sur le thème <i>"Reborn"</i>.
-          </p>
-          <p>Environnement de développement:</p>
-          <ul>
-            <li><strong>C++</strong></li>
-            <li>SFML</li>
-            <li>Dear ImGui</li>
-            <li>Visual Studio</li>
-          </ul>
-
-          <p>
-            J'ai choisi de créer pour ce projet un petit jeu très simple où le joueur peut déplacer un petit cercle bleu
-            horizontalement pour ramasser des collectibles (triangle vert). Mais attention à éviter
-            les obstacles (carrés rouges).
-            Si le joueur touche un obstacle, c'est perdu, mais vous pouvez "renaître" et donc continuer le jeu tout en
-            gardant votre score ... Mais, le cercle s'agrandit! Rendant le jeu un peu plus difficile.
-            le joueur perd vraiment (Game Over) lorsque le cercle atteint une certaine taille.
-          </p>
-
-          <div class="col-12 col-12-mobile images">
-            <div id="MyImg" class="image">
-              <img src="images/Reborn1.jpg" alt="" onclick="onModalClick(this)" />
-            </div>
-
-            <div class="image">
-              <img src="images/Reborn2.jpg" alt="" onclick="onModalClick(this)" />
-            </div>
-
-            <!-- The Modal -->
-            <div id="myModal" class="modal">
-              <!-- The Close Button -->
-              <span class="close">&times;</span>
-              <!-- Modal Content (The Image) -->
-              <img class="modal-content" id="img01">
-            </div>
-          </div>
-
-          <p>
-            Via une fenêtre ImGUI, il est possible de modifier divers paramètres du jeu (vitesse à laquelle les
-            obstacles et les
-            collectibles tombent,
-            vitesse à laquelle le cercle se déplace, taille du cercle, temps d'apparition des obstacles et collectibles,
-            nombre d'obstacles et de collectibles ...)
-          </p>
-          <p>
-            J'ai également commencer le développement d'une partie IA. Prenant le contrôle du cercle,
-            l'IA se dirige vers les collectibles pour les ramasser, tout en évitant les obstacles.
-            La partie évitement d'obstacle est encore à améliorer.
-          </p>
-          <div class="lien">
-            <a href="https://github.com/chapeq/RebornProject">Le code est disponible ici</a>
-          </div>
-        </div>
-
-
-
-        <div class="row project">
-          <div class="title">
-            <h3>Harry Potter Mini Adventure</h3>
-          </div>
-          <p>Projet personnel réalisé pour tester les fonctionnalités d'<strong>Unity</strong> en 2D et le développement
-            pour
-            mobile. Il s'agit
-            d'un jeu d'aventure / RPG sur le thème d'Harry Potter.
-            Le développement de ce projet m'a permis de travailler sur différentes mécaniques de jeu :
-          </p>
+            Projet sur lequel j'ai pu travailler durant mes 2 ans chez <a
+              href="https://www.actimage.com/fr/">Actimage</a>. </p>
+          <p> Anciennement nommé Hol'autisme et récemment renommé TooYu, c'est une solution santé en réalité mixte
+            visant à favoriser l'inclusion des personnes atteintes de
+            troubles neurodéveloppementaux.
+            La solution est actuellement composée de 5 applications en réalité mixte accompagnées d’une plateforme de
+            suivi pour améliorer les habilités
+            sociales et motrices dans un environnement sécurisé et maîtrisé: PopBalloons, Smile, Across, EduFriend et
+            Job now.</p>
+          <p><i>Ici pour en savoir plus --> <a href="https://www.holautisme.com/fr/">Site TooYu</a></i> </p>
           <div class="liste">
             <ul>
-              <li>Système de dialogue</li>
-              <li>Système d'inventaire</li>
-              <li>Système de sauvegarde</li>
-              <li>Système de combat tour par tour</li>
+              <li>Gestion de projet et de l'équipe de développement (Roadmap, chiffrage, Gantt, attribution des tâches)
+              </li>
+              <li>Présentation des applications et de la technologie
+                a des structures de santé, partenaires, grand public,...</li>
+              <li>Prise en compte des retours utilisateurs et évolution des applications en
+                conséquence</li>
+              <li>Redaction spécification techniques et fonctionnelles, cahier des charges, bilan d'expérimentation et
+                appel à projets</li>
+              <li>Développement sur Unity avec SDK MRTK pour HoloLens 2</li>
+              <li>Intégration solution d'EyeTracking (solution existante OpenSource)</li>
             </ul>
-            <ul>
-              <li>Gestion des transitions(visuelles et audio)</li>
-              <li>Utilisation de timeline </li>
-              <li>Déplacement du joueur via un joystick virtuel</li>
-            </ul>
           </div>
 
           <div class="col-12 col-12-mobile images">
             <div id="MyImg" class="image">
-              <img src="images/HarryPotter1.jpg" alt="" onclick="onModalClick(this)" />
+              <img src="images/TooYu.png" alt="" onclick="onModalClick(this)" />
             </div>
-
-            <div class="image">
-              <img src="images/HarryPotter2.jpg" alt="" onclick="onModalClick(this)" />
-            </div>
-
-            <div class="image">
-              <img src="images/HarryPotter3.jpg" alt="" onclick="onModalClick(this)" />
-            </div>
-
-            <div class="image">
-              <img src="images/HarryPotter4.jpg" alt="" onclick="onModalClick(this)" />
-            </div>
-
-            <div class="image">
-              <img src="images/HarryPotter5.jpg" alt="" onclick="onModalClick(this)" />
-            </div>
-
-            <div class="image">
-              <img src="images/HarryPotter6.jpg" alt="" onclick="onModalClick(this)" />
-            </div>
-
             <!-- The Modal -->
             <div id="myModal" class="modal">
               <!-- The Close Button -->
@@ -267,121 +122,39 @@
               <img class="modal-content" id="img01">
             </div>
           </div>
-
-          <div class="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/XyzHSRMwd0U" frameborder="0"
-              allowfullscreen></iframe>
-          </div>
-        </div>
-
-
-        <div class="row project">
-          <div class="title">
-            <h3>Zombie Killer</h3>
-          </div>
-          <p>Projet commencé lors de ma formation que j'ai décidé de finaliser/améliorer.
-            Il s'agit d'un mini-jeu de type TPS (Third-person shooter) sur le thème d'Halloween.
-            Zombie Killer est mon premier projet <strong>Unity</strong>, il m'a permis de mettre en pratique les
-            différentes
-            fonctionnalités du logiciel :</p>
-          <ul>
-            <li>Import de modèles 3D</li>
-            <li>Gestion animations</li>
-            <li>Scripts C#</li>
-            <li>Gestion de l'audio</li>
-            <li>Interface UI / Menu</li>
-            <li>...</li>
-          </ul>
-
-          <div class="col-12 col-12-mobile images">
-            <div id="MyImg" class="image">
-              <img src="images/ZombieKiller1.jpg" alt="" onclick="onModalClick(this)" />
-            </div>
-
-            <div class="image">
-              <img src="images/ZombieKiller2.jpg" alt="" onclick="onModalClick(this)" />
-            </div>
-
-            <div class="image">
-              <img src="images/ZombieKiller3.jpg" alt="" onclick="onModalClick(this)" />
-            </div>
-
-            <!-- The Modal -->
-            <div id="myModal" class="modal">
-              <!-- The Close Button -->
-              <span class="close">&times;</span>
-              <!-- Modal Content (The Image) -->
-              <img class="modal-content" id="img01">
-            </div>
-          </div>
-
-          <div class="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/_pVGR_nC_YQ" frameborder="0"
-              allowfullscreen></iframe>
-          </div>
-        </div>
-
-
-
-        <div class="row project">
-          <div class="title">
-            <h3>Drive With Your Hand</h3>
-          </div>
-          <p> Stage réalisé lors de ma 2e année de Master, dans l'entreprise Aubay. J'ai pu participer à ce projet de
-            <strong>réalité augmentée</strong> dont
-            le but était de pouvoir contrôler une interface (page
-            web, bureau, etc.) avec les mains en utilisant comme moyen de détection une
-            webcam grand public. Mon travail a consisté notamment à optimiser l'API <strong>JavaScript</strong>
-            existante (optimisation
-            algorithmes et temps de traitement), à nettoyer le code et à tester, mais aussi à lancer une future API C++
-            (cahier des charges, architecture).
-          </p>
-
-          <div class="col-12 col-12-mobile images">
-            <div id="MyImg" class="image">
-              <img src="images/DWYH.jpg" alt="" onclick="onModalClick(this)" />
-            </div>
-
-            <div class="video">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/Q7fW1qaxCZE" frameborder="0"
-                allowfullscreen></iframe>
-            </div>
-
-            <!-- The Modal -->
-            <div id="myModal" class="modal">
-              <!-- The Close Button -->
-              <span class="close">&times;</span>
-              <!-- Modal Content (The Image) -->
-              <img class="modal-content" id="img01">
-            </div>
-          </div>
-
-
 
           <div class="row project">
             <div class="title">
-              <h3>Appisodes Plumzi</h3>
+              <h3>BDNF</h3>
             </div>
-            <p> Stage réalisé lors de ma 1ère année de Master, dans la start-up Plumzi. J'ai pu participer à la
-              réalisation d'Appisodes (épisodes interactifs entre le dessin animé et le jeu vidéo) à destination des
-              enfants. En tant que développeuse, ma mission a été d’implémenter des scénarios interactifs selon les
-              spécifications fournies par les équipes créatrices dans le gameplay. C'est-à-dire implémenter des
-              interactions et de l’environnement
-              graphique/audio dans les différentes scènes, en <strong>Lua</strong>.</p>
+            <p>
+              Projet sur lequel j'ai pu travailler durant mes 2 ans chez <a
+                href="https://www.actimage.com/fr/">Actimage</a>. </p>
+            <p>BDnF est une application gratuite, disponible sur ordinateur, tablette et mobile, elle cible le public
+              scolaire (enseignants et élèves du primaire et du secondaire), et s’adresse plus largement à tout public
+              intéressé par la forme d’expression particulière qu’est la bande-dessinée.
+              L’utilisateur dispose d’un accompagnement dans le processus de création d’une histoire en bande-dessinée,
+              avec la possibilité de s’appuyer sur des corpus thématiques proposés par la BnF (ou par le professeur dans
+              le cadre d’un usage scolaire), ou encore d’utiliser des images provenant de Gallica, la bibliothèque
+              numérique de la BnF.</p>
+            <p>J'ai pu travailler sur la 2e version de l'application, sortie en septembre 2023.</p>
+            <p><i>Ici pour en savoir plus --> <a href="https://bdnf.bnf.fr/fr">Site BDnF</a></i> </p>
+            <div class="liste">
+              <ul>
+                <li>Gestion de projet et de l'équipe de développement (Roadmap, chiffrage, Gantt, attribution des
+                  tâches)
+                </li>
+                <li>Développement et/ou debug des évolutions présentes dans la V2.0</li>
+                <li>Développement sur Unity et optimisation des performances en fonction des plateformes</li>
+                <li>Déploiement sur Windows, Linux, Android, MacOS et IOS et publication sur les stores (Apple Store et
+                  PlayStore)</li>
+              </ul>
+            </div>
 
             <div class="col-12 col-12-mobile images">
               <div id="MyImg" class="image">
-                <img src="images/Appisode1.gif" alt="" onclick="onModalClick(this)" />
+                <img src="images/Bdnf.jpg" alt="" onclick="onModalClick(this)" />
               </div>
-
-              <div class="image">
-                <img src="images/Appisode2.gif" alt="" onclick="onModalClick(this)" />
-              </div>
-
-              <div class="image">
-                <img src="images/Appisode3.gif" alt="" onclick="onModalClick(this)" />
-              </div>
-
               <!-- The Modal -->
               <div id="myModal" class="modal">
                 <!-- The Close Button -->
@@ -391,7 +164,327 @@
               </div>
             </div>
 
-          </div>
+
+            <div class="row project">
+              <div class="title">
+                <h3>MindMaze project</h3>
+              </div>
+              <p>
+                Petit jeu réalisé dans le cadre du programme <strong>Womxn Develop at Ubisoft</strong>, un programme de
+                mentorat
+                en <strong>Game Design</strong> qui s'est déroulé du 10 février au 21 mai 2021.
+                Le sujet de cette édition était de développer et prototyper une démo de jeu sur le thème
+                <i>"I want to break free"</i>.
+              </p>
+              <p>Le pitch du jeu que j'ai choisi de créer est le suivant :</p>
+              <p>
+                <i>Les confinements successifs ont beaucoup pesé sur le moral d’Ezra…
+                  Explorez le dédale de ses pensées et aidez le(la) à s’échapper de ce labyrinthe avant qu’il(elle) ne
+                  sombre dans la folie !</i>
+              </p>
+
+              <div class="col-12 col-12-mobile images">
+                <div id="MyImg" class="image">
+                  <img src="images/MindMaze1.jpg" alt="" onclick="onModalClick(this)" />
+                </div>
+
+                <div class="image">
+                  <img src="images/MindMaze2.jpg" alt="" onclick="onModalClick(this)" />
+                </div>
+
+                <div class="image">
+                  <img src="images/MindMaze3.jpg" alt="" onclick="onModalClick(this)" />
+                </div>
+
+                <div class="image">
+                  <img src="images/MindMaze4.jpg" alt="" onclick="onModalClick(this)" />
+                </div>
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                  <!-- The Close Button -->
+                  <span class="close">&times;</span>
+                  <!-- Modal Content (The Image) -->
+                  <img class="modal-content" id="img01">
+                </div>
+              </div>
+
+              <p>
+                J'ai choisi de développer la démo de mon jeu grâce à <strong>Unity</strong>.
+                L'objectif du joueur sera ici de sortir du labyrinthe le plus rapidement possible,
+                tout en collectant des objets disséminés dans le labyrinthe et en
+                évitant un ennemi représentant les pensées noires d’Ezra.
+              </p>
+
+              <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/2kaNEpX9v5I" frameborder="0"
+                  allowfullscreen></iframe>
+              </div>
+
+              <div class="lien">
+                <a href="./images/MindMaze_GameDesignSolution_[Charlotte_Pequignot].pdf"
+                  download="GameDesign_Solution">Presentation du jeu (pdf)</a>
+              </div>
+              <div class="lien">
+                <a href="https://github.com/chapeq/MindMazeProject">Code et crédits des assets disponible ici</a>
+              </div>
+
+            </div>
+
+
+            <div class="row project">
+              <div class="title">
+                <h3>Reborn project</h3>
+              </div>
+              <p>
+                Petit jeu réalisé dans le cadre du programme <strong>Womxn Develop at Ubisoft</strong>, un programme de
+                mentorat
+                en <strong>programmation</strong> qui s'est déroulé du 10 février au 21 mai 2021.
+                Le sujet de cette édition était de créer un jeu en utilisant notre imagination et notre
+                créativité, sur le thème <i>"Reborn"</i>.
+              </p>
+              <p>Environnement de développement:</p>
+              <ul>
+                <li><strong>C++</strong></li>
+                <li>SFML</li>
+                <li>Dear ImGui</li>
+                <li>Visual Studio</li>
+              </ul>
+
+              <p>
+                J'ai choisi de créer pour ce projet un petit jeu très simple où le joueur peut déplacer un petit cercle
+                bleu
+                horizontalement pour ramasser des collectibles (triangle vert). Mais attention à éviter
+                les obstacles (carrés rouges).
+                Si le joueur touche un obstacle, c'est perdu, mais vous pouvez "renaître" et donc continuer le jeu tout
+                en
+                gardant votre score ... Mais, le cercle s'agrandit! Rendant le jeu un peu plus difficile.
+                le joueur perd vraiment (Game Over) lorsque le cercle atteint une certaine taille.
+              </p>
+
+              <div class="col-12 col-12-mobile images">
+                <div id="MyImg" class="image">
+                  <img src="images/Reborn1.jpg" alt="" onclick="onModalClick(this)" />
+                </div>
+
+                <div class="image">
+                  <img src="images/Reborn2.jpg" alt="" onclick="onModalClick(this)" />
+                </div>
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                  <!-- The Close Button -->
+                  <span class="close">&times;</span>
+                  <!-- Modal Content (The Image) -->
+                  <img class="modal-content" id="img01">
+                </div>
+              </div>
+
+              <p>
+                Via une fenêtre ImGUI, il est possible de modifier divers paramètres du jeu (vitesse à laquelle les
+                obstacles et les
+                collectibles tombent,
+                vitesse à laquelle le cercle se déplace, taille du cercle, temps d'apparition des obstacles et
+                collectibles,
+                nombre d'obstacles et de collectibles ...)
+              </p>
+              <p>
+                J'ai également commencer le développement d'une partie IA. Prenant le contrôle du cercle,
+                l'IA se dirige vers les collectibles pour les ramasser, tout en évitant les obstacles.
+                La partie évitement d'obstacle est encore à améliorer.
+              </p>
+              <div class="lien">
+                <a href="https://github.com/chapeq/RebornProject">Le code est disponible ici</a>
+              </div>
+            </div>
+
+
+
+            <div class="row project">
+              <div class="title">
+                <h3>Harry Potter Mini Adventure</h3>
+              </div>
+              <p>Projet personnel réalisé pour tester les fonctionnalités d'<strong>Unity</strong> en 2D et le
+                développement
+                pour
+                mobile. Il s'agit
+                d'un jeu d'aventure / RPG sur le thème d'Harry Potter.
+                Le développement de ce projet m'a permis de travailler sur différentes mécaniques de jeu :
+              </p>
+              <div class="liste">
+                <ul>
+                  <li>Système de dialogue</li>
+                  <li>Système d'inventaire</li>
+                  <li>Système de sauvegarde</li>
+                  <li>Système de combat tour par tour</li>
+                </ul>
+                <ul>
+                  <li>Gestion des transitions(visuelles et audio)</li>
+                  <li>Utilisation de timeline </li>
+                  <li>Déplacement du joueur via un joystick virtuel</li>
+                </ul>
+              </div>
+
+              <div class="col-12 col-12-mobile images">
+                <div id="MyImg" class="image">
+                  <img src="images/HarryPotter1.jpg" alt="" onclick="onModalClick(this)" />
+                </div>
+
+                <div class="image">
+                  <img src="images/HarryPotter2.jpg" alt="" onclick="onModalClick(this)" />
+                </div>
+
+                <div class="image">
+                  <img src="images/HarryPotter3.jpg" alt="" onclick="onModalClick(this)" />
+                </div>
+
+                <div class="image">
+                  <img src="images/HarryPotter4.jpg" alt="" onclick="onModalClick(this)" />
+                </div>
+
+                <div class="image">
+                  <img src="images/HarryPotter5.jpg" alt="" onclick="onModalClick(this)" />
+                </div>
+
+                <div class="image">
+                  <img src="images/HarryPotter6.jpg" alt="" onclick="onModalClick(this)" />
+                </div>
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                  <!-- The Close Button -->
+                  <span class="close">&times;</span>
+                  <!-- Modal Content (The Image) -->
+                  <img class="modal-content" id="img01">
+                </div>
+              </div>
+
+              <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/XyzHSRMwd0U" frameborder="0"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+
+
+            <div class="row project">
+              <div class="title">
+                <h3>Zombie Killer</h3>
+              </div>
+              <p>Projet commencé lors de ma formation que j'ai décidé de finaliser/améliorer.
+                Il s'agit d'un mini-jeu de type TPS (Third-person shooter) sur le thème d'Halloween.
+                Zombie Killer est mon premier projet <strong>Unity</strong>, il m'a permis de mettre en pratique les
+                différentes
+                fonctionnalités du logiciel :</p>
+              <ul>
+                <li>Import de modèles 3D</li>
+                <li>Gestion animations</li>
+                <li>Scripts C#</li>
+                <li>Gestion de l'audio</li>
+                <li>Interface UI / Menu</li>
+                <li>...</li>
+              </ul>
+
+              <div class="col-12 col-12-mobile images">
+                <div id="MyImg" class="image">
+                  <img src="images/ZombieKiller1.jpg" alt="" onclick="onModalClick(this)" />
+                </div>
+
+                <div class="image">
+                  <img src="images/ZombieKiller2.jpg" alt="" onclick="onModalClick(this)" />
+                </div>
+
+                <div class="image">
+                  <img src="images/ZombieKiller3.jpg" alt="" onclick="onModalClick(this)" />
+                </div>
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                  <!-- The Close Button -->
+                  <span class="close">&times;</span>
+                  <!-- Modal Content (The Image) -->
+                  <img class="modal-content" id="img01">
+                </div>
+              </div>
+
+              <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/_pVGR_nC_YQ" frameborder="0"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+
+
+
+            <div class="row project">
+              <div class="title">
+                <h3>Drive With Your Hand</h3>
+              </div>
+              <p> Stage réalisé lors de ma 2e année de Master, dans l'entreprise Aubay. J'ai pu participer à ce projet
+                de
+                <strong>réalité augmentée</strong> dont
+                le but était de pouvoir contrôler une interface (page
+                web, bureau, etc.) avec les mains en utilisant comme moyen de détection une
+                webcam grand public. Mon travail a consisté notamment à optimiser l'API <strong>JavaScript</strong>
+                existante (optimisation
+                algorithmes et temps de traitement), à nettoyer le code et à tester, mais aussi à lancer une future API
+                C++
+                (cahier des charges, architecture).
+              </p>
+
+              <div class="col-12 col-12-mobile images">
+                <div id="MyImg" class="image">
+                  <img src="images/DWYH.jpg" alt="" onclick="onModalClick(this)" />
+                </div>
+
+                <div class="video">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/Q7fW1qaxCZE" frameborder="0"
+                    allowfullscreen></iframe>
+                </div>
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                  <!-- The Close Button -->
+                  <span class="close">&times;</span>
+                  <!-- Modal Content (The Image) -->
+                  <img class="modal-content" id="img01">
+                </div>
+              </div>
+
+
+
+              <div class="row project">
+                <div class="title">
+                  <h3>Appisodes Plumzi</h3>
+                </div>
+                <p> Stage réalisé lors de ma 1ère année de Master, dans la start-up Plumzi. J'ai pu participer à la
+                  réalisation d'Appisodes (épisodes interactifs entre le dessin animé et le jeu vidéo) à destination des
+                  enfants. En tant que développeuse, ma mission a été d’implémenter des scénarios interactifs selon les
+                  spécifications fournies par les équipes créatrices dans le gameplay. C'est-à-dire implémenter des
+                  interactions et de l’environnement
+                  graphique/audio dans les différentes scènes, en <strong>Lua</strong>.</p>
+
+                <div class="col-12 col-12-mobile images">
+                  <div id="MyImg" class="image">
+                    <img src="images/Appisode1.gif" alt="" onclick="onModalClick(this)" />
+                  </div>
+
+                  <div class="image">
+                    <img src="images/Appisode2.gif" alt="" onclick="onModalClick(this)" />
+                  </div>
+
+                  <div class="image">
+                    <img src="images/Appisode3.gif" alt="" onclick="onModalClick(this)" />
+                  </div>
+
+                  <!-- The Modal -->
+                  <div id="myModal" class="modal">
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" id="img01">
+                  </div>
+                </div>
+
+              </div>
     </section>
 
 
@@ -406,17 +499,15 @@
         <a href="#" class="image featured"><img src="images/bannerPres.jpg" alt="" /></a>
 
         <p>Après un diplôme d'ingénieur informatique et 3 ans d'expérience en développement dans
-          différents langages, j'ai entamé une réorientation dans mon projet professionnel et
-          ai réalisé une <strong>certification Unity 3D</strong> en octobre 2020.</p>
+          différents langages, je me suis spécialisée et formée sur <strong>Unity 3D</strong> en octobre 2020.</p>
         <p>Ce site a pour but de partager mes premiers pas sur le logiciel Unity ainsi que mon premier projet
           réalisé suite à ma formation.
-          D'autres projets seront présentés dans un futur proche, car j'ai l'intention de continuer à me
+          D'autres projets ont et seront ajoutés au fil du temps car j'ai l'intention de continuer à me
           former et à travailler sur Unity.</p>
-        <p>Je suis actuellement à la recherche d'un poste sur <strong>Paris</strong> de <strong>développeur
-            Unity3D</strong>. Je serais également
-          intéressée par des postes en <strong>R&D</strong>, <strong>pôle innovation</strong> ou dans le domaine de la
-          <strong>réalité
-            augmentée/virtuelle</strong>.
+        <p>Après 2 ans d'expérience en tant que consultante innovation durant lesquels j'ai travaillé sur des projets en
+          <strong>réalité mixte</strong> et développé des compétences avancées en Unity, je suis motivée et déterminée
+          pour travailler
+          sur des projets dans le secteur du <strong>jeu vidéo</strong> ou de la <strong>XR</strong>.
         </p>
 
         <div class="btn-container">
